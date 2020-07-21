@@ -165,7 +165,7 @@ body {
         margin-right: 0; } }
   .navigation__link:hover, .navigation__link:active {
     background-color: #6D5D4B;
-    transform: translateY(-2px) scale(1.1);
+    transform: translateY(-2px) scale(1.13);
     font-weight: 900; }
 
 .header-1 {
@@ -218,8 +218,8 @@ body {
   margin-bottom: 1rem; }
   .btn__text:link, .btn__text:visited {
     font-size: 2rem;
-    font-weight: 400;
-    color: #f9f7f6;
+    font-weight: 500;
+    color: #fff;
     background-color: #6D5D4B;
     border-radius: 5px;
     text-decoration: none;
@@ -239,7 +239,8 @@ body {
   .btn__text:hover {
     background-color: #54483A;
     box-shadow: 0 0.8rem 1.4rem rgba(0, 0, 0, 0.4);
-    transform: translateY(-4px); }
+    transform: translateY(-4px);
+    font-weight: bold; }
   .btn__text:active {
     transform: translateY(0); }
   .btn__text-1:link, .btn__text-1:visited {
