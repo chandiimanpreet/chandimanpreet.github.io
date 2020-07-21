@@ -144,7 +144,7 @@ body {
   .navigation__link:link, .navigation__link:visited {
     font-size: 1.8rem;
     font-family: "Nunito", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     text-decoration: none;
     color: #fff;
     padding: 1.3rem;
@@ -165,8 +165,8 @@ body {
         margin-right: 0; } }
   .navigation__link:hover, .navigation__link:active {
     background-color: #6D5D4B;
-    transform: translateY(-2px) scale(1.03);
-    font-weight: bold; }
+    transform: translateY(-2px) scale(1.1);
+    font-weight: 900; }
 
 .header-1 {
   font-family: "Josefin Sans", sans-serif;
