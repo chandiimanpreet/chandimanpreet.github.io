@@ -85,7 +85,7 @@ body {
   .header__info {
     display: flex;
     flex-direction: column;
-    max-width: 30%; }
+    max-width: 24%; }
   .header__detail {
     margin-top: 1rem; }
 
@@ -211,7 +211,7 @@ body {
       font-size: 1.5rem; } }
   @media only screen and (max-width: 43.75em) {
     .header-5 {
-      font-size: 9px; } }
+      font-size: 6px; } }
 
 .btn {
   margin-top: 2rem;
