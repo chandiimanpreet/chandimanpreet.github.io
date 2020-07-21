@@ -56,10 +56,15 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center; }
+  @media only screen and (max-width: 50em) {
+    .header {
+      padding: 2rem 3.5rem; } }
+  @media only screen and (max-width: 43.75em) {
+    .header {
+      padding: 2rem 0; } }
   .header__img {
     max-width: 85%;
-    border-radius: 15%;
-    margin-right: 3rem; }
+    border-radius: 15%; }
     @media only screen and (max-width: 56.25em) {
       .header__img {
         max-width: 80%; } }
@@ -127,6 +132,7 @@ body {
 
 .navigation {
   background-color: #54483A;
+  background-size: cover;
   padding: 1rem 3rem;
   position: sticky;
   top: 0;
@@ -154,7 +160,9 @@ body {
         font-size: 1.2rem; } }
     @media only screen and (max-width: 37.5em) {
       .navigation__link:link, .navigation__link:visited {
-        font-size: 1rem; } }
+        font-size: 6px;
+        padding: 1rem;
+        margin-right: 0; } }
   .navigation__link:hover, .navigation__link:active {
     background-color: #6D5D4B;
     transform: translateY(-2px) scale(1.03);
@@ -172,6 +180,9 @@ body {
   @media only screen and (max-width: 50em) {
     .header-2 {
       font-size: 4rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .header-2 {
+      font-size: 3rem; } }
 
 .header-3 {
   font-size: 4rem;
@@ -221,6 +232,10 @@ body {
       .btn__text:link, .btn__text:visited {
         font-size: 1.3rem;
         padding: 1.3rem 1.6rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .btn__text:link, .btn__text:visited {
+        font-size: 1rem;
+        padding: 1rem 1.3rem; } }
   .btn__text:hover {
     background-color: #54483A;
     box-shadow: 0 0.8rem 1.4rem rgba(0, 0, 0, 0.4);
@@ -249,6 +264,9 @@ body {
   width: max-content;
   text-shadow: 0 1rem 2rem rgba(255, 255, 255, 0.1);
   margin-left: 2rem; }
+  @media only screen and (max-width: 56.25em) {
+    .heading {
+      margin: 0 auto; } }
 
 .section-1 {
   display: flex;
@@ -274,7 +292,7 @@ body {
       padding: 2rem; }
       @media only screen and (max-width: 43.75em) {
         .section-1__right--text {
-          font-size: 1.6rem; } }
+          font-size: 1.2rem; } }
 
 .img__left--1 {
   max-width: 80%;
@@ -396,8 +414,19 @@ body {
   @media only screen and (max-width: 75em) {
     .section-4 {
       height: 46vh;
-      width: auto;
       padding: 7rem; } }
+  @media only screen and (max-width: 50em) {
+    .section-4 {
+      height: 38vh;
+      padding: 7rem; } }
+  @media only screen and (max-width: 50em) {
+    .section-4 {
+      height: 31vh;
+      padding: 6rem 7rem; } }
+  @media only screen and (max-width: 43.75em) {
+    .section-4 {
+      height: 25vh;
+      padding: 5rem 7rem; } }
 
 .suscribe {
   display: flex;
@@ -414,10 +443,10 @@ body {
         font-size: 3.3rem; } }
     @media only screen and (max-width: 56.25em) {
       .suscribe__text {
-        font-size: 2.5rem; } }
+        font-size: 2.37rem; } }
     @media only screen and (max-width: 37.5em) {
       .suscribe__text {
-        font-size: 2rem; } }
+        font-size: 1.28rem; } }
   .suscribe__form {
     display: flex; }
   .suscribe__input {
@@ -436,15 +465,26 @@ body {
         margin: 3rem; } }
     @media only screen and (max-width: 62.5em) {
       .suscribe__input {
-        margin: 4rem 3rem; } }
-    @media only screen and (max-width: 43.75em) {
+        margin: 4rem 3rem;
+        font-size: 1.6rem; } }
+    @media only screen and (max-width: 56.25em) {
       .suscribe__input {
-        margin: 3rem 2.5rem;
-        padding: 1.1rem 1.4rem; } }
+        border-bottom: 2.5px solid transparent; } }
+    @media only screen and (max-width: 50em) {
+      .suscribe__input {
+        margin: 2rem 2.5rem;
+        padding: 1rem;
+        font-size: 1.2rem; } }
   .suscribe__input:focus:invalid {
     border-bottom: 5px solid orangered; }
+    @media only screen and (max-width: 56.25em) {
+      .suscribe__input:focus:invalid {
+        border-bottom: 2.5px solid orangered; } }
   .suscribe__input:focus:valid {
     border-bottom: 5px solid #55c57a; }
+    @media only screen and (max-width: 56.25em) {
+      .suscribe__input:focus:valid {
+        border-bottom: 2.5px solid orangered; } }
   .suscribe__submit {
     align-self: center;
     font-size: 2rem;
@@ -454,9 +494,10 @@ body {
     outline: none;
     cursor: pointer;
     transition: all .2s; }
-    @media only screen and (max-width: 43.75em) {
+    @media only screen and (max-width: 50em) {
       .suscribe__submit {
-        font-size: 1.3rem; } }
+        font-size: 1.1rem;
+        padding: 6px 1.4rem; } }
     .suscribe__submit:hover {
       box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.7);
       transform: translateY(-4px); }
