@@ -240,7 +240,7 @@ body {
     background-color: #54483A;
     box-shadow: 0 0.8rem 1.4rem rgba(0, 0, 0, 0.4);
     transform: translateY(-4px);
-    font-weight: bold; }
+    font-weight: 700; }
   .btn__text:active {
     transform: translateY(0); }
   .btn__text-1:link, .btn__text-1:visited {
