@@ -62,6 +62,12 @@ body {
   @media only screen and (max-width: 43.75em) {
     .header {
       padding: 2rem 1.7rem; } }
+  .header__info {
+    display: flex;
+    flex-direction: column;
+    max-width: 24%; }
+    .header__info:not(:last-child) {
+      margin-right: 1.5rem; }
   .header__img {
     max-width: 85%;
     border-radius: 15%; }
@@ -82,10 +88,6 @@ body {
     background-clip: text;
     align-self: center;
     margin-left: -2rem; }
-  .header__info {
-    display: flex;
-    flex-direction: column;
-    max-width: 24%; }
   .header__detail {
     margin-top: 1rem; }
 
